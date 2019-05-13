@@ -1,0 +1,27 @@
+{
+  "name": "codemirror-mode-zenscript",
+  "version": "1.0.0",
+  "description": "A CodeMirror mode for the ZenScript language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraftTweaker/codemirror-mode-zenscript.git"
+  },
+  "keywords": [
+    "codemirror",
+    "mode",
+    "zenscript"
+  ],
+  "author": "Jaredlll08",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CraftTweaker/codemirror-mode-zenscript/issues"
+  },
+  "homepage": "https://github.com/CraftTweaker/codemirror-mode-zenscript#readme",
+  "dependencies": {
+    "codemirror": "^5.46.0"
+  }
+}
