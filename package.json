@@ -1,28 +1,43 @@
 {
   "name": "codemirror-mode-zenscript",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A CodeMirror mode for the ZenScript language",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CraftTweaker/codemirror-mode-zenscript.git"
-  },
   "keywords": [
     "codemirror",
     "mode",
     "zenscript"
   ],
-  "author": "Jaredlll08",
-  "license": "MIT",
+  "homepage": "https://github.com/CraftTweaker/codemirror-mode-zenscript#readme",
   "bugs": {
     "url": "https://github.com/CraftTweaker/codemirror-mode-zenscript/issues"
   },
-  "homepage": "https://github.com/CraftTweaker/codemirror-mode-zenscript#readme",
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraftTweaker/codemirror-mode-zenscript.git"
+  },
+  "license": "MIT",
+  "author": "Jaredlll08",
+  "main": "dist/codemirror-mode-zenscript.js",
+  "umd:main": "dist/codemirror-mode-zenscript.umd.js",
+  "module": "dist/codemirror-mode-zenscript.mjs",
+  "source": "index.js",
+  "scripts": {
+    "build": "microbundle build --compress false",
+    "lint": "eslint . --fix",
+    "test": "npm run lint",
+    "watch": "microbundle watch --compress false"
+  },
+  "devDependencies": {
     "codemirror": "^5.46.0",
-    "np": "^5.0.1"
+    "eslint": "^5.16.0",
+    "eslint-config-eslint": "^5.0.1",
+    "eslint-plugin-node": "^9.0.1",
+    "microbundle": "^0.11.0"
+  },
+  "peerDependencies": {
+    "codemirror": "^5.46.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
