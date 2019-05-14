@@ -1,6 +1,6 @@
 {
   "name": "codemirror-mode-zenscript",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A CodeMirror mode for the ZenScript language",
   "main": "index.js",
   "scripts": {
