@@ -1,4 +1,5 @@
-import CodeMirror from 'codemirror'
+import CodeMirror from 'codemirror';
+import "codemirror/addon/mode/simple";
 
 CodeMirror.defineSimpleMode("zenscript", {
     start: [

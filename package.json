@@ -1,6 +1,6 @@
 {
   "name": "codemirror-mode-zenscript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CodeMirror mode for the ZenScript language",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/CraftTweaker/codemirror-mode-zenscript#readme",
   "dependencies": {
-    "codemirror": "^5.46.0"
+    "codemirror": "^5.46.0",
+    "np": "^5.0.1"
   }
 }
