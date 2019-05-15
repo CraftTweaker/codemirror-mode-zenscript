@@ -1,4 +1,8 @@
-# codemirror-mode-zenscript
+codemirror-mode-zenscript
+==============
+[![npm version](https://badge.fury.io/js/codemirror-mode-zenscript.svg)](https://badge.fury.io/js/codemirror-mode-zenscript)
+[![dependencies Status](https://david-dm.org/CraftTweaker/codemirror-mode-zenscript/status.svg)](https://david-dm.org/CraftTweaker/codemirror-mode-zenscript)
+
 > A CodeMirror mode for [ZenScript](https://github.com/CraftTweaker/ZenScript)
 
 ## Installation
