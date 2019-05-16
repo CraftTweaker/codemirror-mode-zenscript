@@ -1,6 +1,6 @@
 {
   "name": "codemirror-mode-zenscript",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A CodeMirror mode for the ZenScript language",
   "keywords": [
     "codemirror",
@@ -22,10 +22,10 @@
   "module": "dist/codemirror-mode-zenscript.mjs",
   "source": "index.js",
   "scripts": {
-    "build": "microbundle build --compress false",
+    "build": "microbundle build --no-compress",
     "lint": "eslint . --fix",
     "test": "npm run lint",
-    "watch": "microbundle watch --compress false"
+    "watch": "microbundle watch --no-compress"
   },
   "devDependencies": {
     "codemirror": "^5.46.0",
