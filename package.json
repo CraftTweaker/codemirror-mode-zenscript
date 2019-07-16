@@ -29,9 +29,9 @@
   },
   "devDependencies": {
     "codemirror": "^5.48.0",
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.1",
     "eslint-config-eslint": "^5.0.1",
-    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-node": "^9.1.0",
     "microbundle": "^0.11.0"
   },
   "peerDependencies": {
