@@ -28,14 +28,14 @@
     "watch": "microbundle watch --no-compress"
   },
   "devDependencies": {
-    "codemirror": "^5.46.0",
+    "codemirror": "^5.48.0",
     "eslint": "^5.16.0",
     "eslint-config-eslint": "^5.0.1",
     "eslint-plugin-node": "^9.0.1",
     "microbundle": "^0.11.0"
   },
   "peerDependencies": {
-    "codemirror": "^5.46.0"
+    "codemirror": "^5.48.0"
   },
   "engines": {
     "node": ">=10.0.0"
