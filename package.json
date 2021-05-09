@@ -28,11 +28,11 @@
     "watch": "microbundle watch --no-compress"
   },
   "devDependencies": {
-    "codemirror": "^5.48.0",
-    "eslint": "^6.0.1",
-    "eslint-config-eslint": "^5.0.1",
-    "eslint-plugin-node": "^9.1.0",
-    "microbundle": "^0.11.0"
+    "codemirror": "^5.61.0",
+    "eslint": "^7.26.0",
+    "eslint-config-eslint": "^7.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "microbundle": "^0.13.0"
   },
   "peerDependencies": {
     "codemirror": "^5.48.0"
